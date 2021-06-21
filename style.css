@@ -1,0 +1,62 @@
+h1 {
+    margin: 0;
+    padding: 0;
+    color: fuchsia;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(12, 12, 31);
+}
+
+h2, p {
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.top {
+    position: relative;
+    margin-top: -25px;
+    background-color: rgb(12, 12, 31);
+    border: 2px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgb(252, 244, 244);
+}
+
+section {
+    display: flex;
+    margin: 38px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 300px;
+}
+
+.card {
+    width: 370px;
+    height: 280px;
+    padding: 6px;
+    border: 1px;
+    border-style: dashed;
+    border-color: white;
+    margin: 15px;
+}
+
+.box {
+    display: table-row;
+    width: 225px;
+    height: 131px;
+    border-radius: 15px;
+    background-color: rgb(43, 216, 228);
+    opacity: 90%;
+    margin: 8px;
+    background-image: linear-gradient( rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
+}
+
+footer {
+    margin-top: 350px;
+    border: 1px ridge rgb(253, 250, 250);
+}
